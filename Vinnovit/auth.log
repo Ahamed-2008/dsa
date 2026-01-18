@@ -1,0 +1,9 @@
+Dec 13 00:56:12 server auth[2113]: User 'alice' logged in
+Dec 13 01:01:44 server auth[2113]: User 'bob' logged in
+Dec 13 01:03:11 server auth[2113]: User 'bob' created a note
+Dec 13 01:10:28 server auth[2113]: User 'charlie' logged in
+
+Dec 13 01:26:11 server auth[2113]: Failed login attempt for user 'admin'
+Dec 13 01:26:18 server auth[2113]: Failed login attempt for user 'admin'
+Dec 13 01:26:26 server auth[2113]: User 'admin' logged in
+Dec 13 01:26:26 server auth[2113]: JWT issued for user_id=1
