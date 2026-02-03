@@ -44,8 +44,8 @@ int findMax(struct Node *p){
 void Display(struct Node *p) {
     struct Node *temp = p;
     while (p != NULL) {
-        printf("%d ", p->data);
-        p = p->next;
+        printf("%d ", temp->data);
+        temp = temp->next;
     }
 }
 int Add(struct Node *p){
@@ -90,6 +90,7 @@ int search(struct Node *p, int x){
     }  
     return -1;
 }
+
 void deleteLast(struct Node *p){
     struct Node *temp;
     temp = p;
